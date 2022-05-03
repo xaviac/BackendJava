@@ -12,10 +12,10 @@ public class Main {
 
         Personaje hermione = new Personaje("Hermione Jean Granger", "Gryffindor", "Femenino", "La profesora McGonagall", "Nutria");
 
-        System.out.println(harry.showMessage());
-        System.out.println(snape.showMessage());
-        System.out.println(dumbledore.showMessage());
-        System.out.println(ron.showMessage());
-        System.out.println(hermione.showMessage());
+        harry.showMessage();
+        snape.showMessage();
+        dumbledore.showMessage();
+        ron.showMessage();
+        hermione.showMessage();
     }
 }

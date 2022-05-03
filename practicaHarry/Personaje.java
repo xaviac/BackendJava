@@ -58,11 +58,11 @@ public class Personaje {
             return false;
     }
 
-    public String showMessage(){
-        return "Nombre: " + nombre +
+    void showMessage(){
+        System.out.println("Nombre: " + nombre +
                 " Casa: " + casa +
                 " Genero: " + genero +
                 " Boggart: " + boggart +
-                " Patronus: " + patronus;
+                " Patronus: " + patronus);
     }
 }
