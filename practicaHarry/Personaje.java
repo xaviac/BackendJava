@@ -3,6 +3,8 @@ package practicaHarry;
 public class Personaje {
     private String nombre, casa, genero, boggart, patronus;
 
+    public Personaje(){ }
+
     public Personaje(String nombre, String casa, String genero, String boggart, String patronus){
         this.nombre = nombre;
         this.casa = casa;
